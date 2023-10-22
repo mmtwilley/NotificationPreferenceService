@@ -12,7 +12,7 @@ public class NotificationPreferences {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+    private Long  id;
     private String customerId;
     private boolean smsPreferenceFlag;
     private boolean emailPreferenceFlag;
